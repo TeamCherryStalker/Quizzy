@@ -1,7 +1,9 @@
 package game;
 import java.util.*;
+// Classe responsável por conter os métodos que iremos utilizar para fazer os códigos do quiz
 public class Questions 
-{
+{	
+	// Função responsável criar a estrutura das perguntas do quiz
 	public void question(String text, String answer_1, String answer_2, String answer_3, String answer_4, String answer_5, int number, int right)
 	{
 		Scanner teclado = new Scanner(System.in);
