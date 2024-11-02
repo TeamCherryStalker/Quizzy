@@ -1,10 +1,10 @@
 package game;
+// Classe principal responsável por rodar nosso quiz
 public class Main 
 {
-	// Classe principal responsável por rodar nosso quiz
+	// Função responsável por rodar as questões do quiz
 	public static void main(String[] args) 
 	{
-		// Função responsável por rodar as questões do quiz
 		Questions write = new Questions();
 		Data coisas = new Data(); 
 		for(int i = 0; i < coisas.perguntas.length;i++)
