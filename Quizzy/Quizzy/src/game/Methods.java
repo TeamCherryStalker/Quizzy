@@ -10,7 +10,7 @@ public class Methods
 		System.out.println(text);
 		System.out.println(answer_1 + "\n" + answer_2 + "\n" + answer_3 + "\n" + answer_4 + "\n" + answer_5 + "\n");
 		number = teclado.nextInt();
-	        // Código responsável por pontuar quem acertar e restar o combo quando errar
+	        // Código responsável por pontuar quem acertar e resetar o combo quando errar
 		  if(number == right)
 		  {
 			  Data.points += 10;
