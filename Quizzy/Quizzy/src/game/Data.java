@@ -1,5 +1,5 @@
 package game;
-
+// Classe responsável por armazenar os dados gerais que utilizaremos no projeto.
 public class Data {
 	static String[] perguntas = { "Pergunta 1", "Pergunta 2", "Pergunta 3", "Pergunta 4" };
 	static String[] opcoes = { "Opção 1", "Opção 2", "Opção 3", "Opção 4", "Opção 5", "Opção 6", "Opção 7", "Opção 8",
