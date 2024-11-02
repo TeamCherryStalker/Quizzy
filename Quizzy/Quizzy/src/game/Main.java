@@ -1,15 +1,18 @@
 package game;
-// Classe principal responsável por rodar nosso quiz
+// Classe principal responsável por rodar o jogo
 public class Main 
 {
-	// Função responsável por rodar as questões do quiz
+	// Import das outras classes
+	static Methods write = new Methods();
+	static Data coisas = new Data();
+	// Função que gera as perguntas no console
 	public static void main(String[] args) 
 	{
-		Questions write = new Questions();
-		Data coisas = new Data(); 
-		for(int i = 0; i < coisas.perguntas.length;i++)
+		int n = 0;
+		for (int i = 0; i < coisas.perguntas.length; i++) 
 		{
-			write.question(coisas.perguntas[i], coisas.opcoes[i], coisas.opcoes[i+1], coisas.opcoes[i+2], coisas.opcoes[i+3], coisas.opcoes[i+4], 0, coisas.respostas[i]);
+			write.question(coisas.perguntas[i], coisas.opcoes[i + n++], coisas.opcoes[i + n++], coisas.opcoes[i + n++],
+				       coisas.opcoes[i + n++], coisas.opcoes[i + n], 0, coisas.respostas[i]);
 		}
 	}
 }
